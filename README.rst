@@ -5,7 +5,9 @@ node-jsmock
 This is a quick wrapper around JSMock that adds the exports so that it can be
 imported by Node.
 
-See `http://jsmock.sourceforge.net`_ for usage.
+See http://jsmock.sourceforge.net for usage.
+
+For a general purpose unit testing framework, see http://github.com/termie/node-unittest
 
 General Usage
 =============
@@ -22,3 +24,8 @@ General Usage
   mockSomething.foo();
 
   mock.verify();
+
+License Bits
+============
+
+All the original license stuff applies, these changes are minimal.
